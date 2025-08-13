@@ -2,7 +2,6 @@
 
 * Студент: [Сона Тууви](https://up.htmlacademy.ru/adaptive-individual/2/user/2609533).
 * Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
-* Проект: [Кэт энерджи](https://sonatuuvi.github.io/2609533-cat-energy-2/)
 
 ---
 
