@@ -1,0 +1,29 @@
+.subscription {
+  &__title {
+    font-family: $secondary-font;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $header-color-main;
+  }
+
+  &__text {
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $header-color-main;
+  }
+
+  &__input {
+    font-family: $secondary-font;
+    font-size: 20px;
+    line-height: 24px;
+    color: $base-color-text;
+  }
+
+  &__button {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

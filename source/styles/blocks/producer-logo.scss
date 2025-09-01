@@ -1,0 +1,20 @@
+.producer-logo {
+  text-decoration: none;
+  color: $base-color-text;
+
+  &:active {
+    opacity: 30%;
+  }
+
+  svg {
+    color: $base-color-text;
+
+    &:hover {
+      color: #68b738;
+    }
+
+    &:active {
+      color: rgba(104, 183, 56, 0.3);
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.cooperation {
+  &__title {
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height: 20px;
+    color: $header-color-main;
+    text-transform: uppercase;
+  }
+
+  &__address {
+    font-family: $primary-font;
+    font-size: 14px;
+    line-height: 20px;
+    color: $base-color-text;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+}
+
+.social-media {
+  &__logo-link svg {
+    width: 128px;
+    height: 24px;
+    color: #111111;
+  }
+
+  &__logo-link svg:hover {
+    color: #3e3e3e;
+  }
+
+  &__logo-link svg:active {
+    color: #6b6b6b;
+  }
+}

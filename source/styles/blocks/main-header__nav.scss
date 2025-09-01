@@ -1,0 +1,13 @@
+.main-header__nav-list {
+  list-style-type: none;
+}
+
+.main-header__nav-link {
+  font-family: $secondary-font, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $text-color-tertiary;
+  text-decoration: none;
+  font-weight: 400;
+}

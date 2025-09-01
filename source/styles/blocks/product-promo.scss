@@ -1,0 +1,16 @@
+.promo {
+  &__button {
+    color: $base-color-text;
+    background-color: #f2f2f2;
+  }
+
+  &__button:hover {
+    color: $base-color-text;
+    background-color: #ebebeb;
+  }
+
+  &__button:active {
+    color: $base-color-text;
+    background-color: #ebebeb;
+  }
+}

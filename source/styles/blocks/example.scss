@@ -1,0 +1,24 @@
+.example {
+  background-color: #eaeaea;
+
+  &__title {
+    font-family: $secondary-font;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+    color: $header-color-main;
+    text-transform: uppercase;
+  }
+
+  &__stat-list {
+    list-style-type: none;
+  }
+
+  &__cost {
+    font-family: $secondary-font;
+    font-size: 14px;
+    line-height: 20px;
+    color: $header-color-main;
+    text-transform: uppercase;
+  }
+}

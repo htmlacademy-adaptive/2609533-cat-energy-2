@@ -1,0 +1,80 @@
+.programme {
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item-title {
+    position: relative;
+    font-family: $secondary-font;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    color: $header-color-main;
+    text-transform: uppercase;
+    padding-left: 90px;
+  }
+
+  &__item {
+    background-color: #f2f2f2;
+  }
+
+  &__item &__item-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #68b738;
+  }
+
+  &__item &__item-title::after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__item:nth-child(odd) &__item-title::after {
+    top: -2px;
+    left: 7px;
+    width: 36px;
+    height: 50px;
+    background-image: url("../../icons/programm_cat_sits.svg");
+  }
+
+  &__item:nth-child(even) &__item-title::after {
+    top: 11px;
+    left: -9px;
+    width: 67px;
+    height: 28px;
+    background-image: url("../../icons/programm_cat_walks.svg");
+  }
+
+  &__button {
+    position: relative;
+    font-family: $secondary-font;
+    font-size: 16px;
+    line-height: 16px;
+    color: $header-color-main;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__button::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 10px;
+    background-image: url("../../icons/example_arrows.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 8px;
+    left: 89px;
+  }
+
+  &__button:active {
+    opacity: 30%;
+  }
+}
